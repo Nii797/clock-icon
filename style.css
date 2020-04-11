@@ -1,3 +1,4 @@
+/* api untuk mengambil font dari google */
 @import url(https://fonts.googleapis.com/css?family=Teko:regular);
 
 *, 
@@ -31,6 +32,10 @@ body {
     animation: bgblob 4s infinite 0.5s;
 }
 
+.say {
+    font-size: 2.5em;
+}
+
 .clock {
     font-size: 4.5em;
 }
@@ -44,6 +49,7 @@ body {
     text-shadow: 0 5px #000000bb;
 }
 
+/* untuk setting gelembung */
 @keyframes bgblob {
     0% {
         border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
